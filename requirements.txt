@@ -75,8 +75,6 @@ mpld3==0.2
 mpmath==0.19
 multipledispatch==0.4.8
 nose==1.3.7
-notebook==4.2.3
-numba==0.28.1+0.gfe99fbc.dirty
 numexpr==2.6.2
 odo==0.5.0
 openpyxl==2.3.2

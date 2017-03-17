@@ -114,7 +114,6 @@ requests==2.12.4
 retriever==2.0.0
 rjsmin==1.0.12
 rope==0.9.4
-ruamel-yaml===-VERSION
 selenium==3.0.2
 simplegeneric==0.8.1
 singledispatch==3.4.0.3

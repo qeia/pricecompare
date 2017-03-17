@@ -28,7 +28,6 @@ configobj==5.0.6
 configparser==3.5.0
 contextlib2==0.5.3
 cycler==0.10.0
-Cython==0.24.1x
 datashape==0.5.2
 decorator==4.0.10
 dill==0.2.5

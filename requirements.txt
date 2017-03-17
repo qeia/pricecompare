@@ -124,7 +124,6 @@ sockjs-tornado==1.0.3
 Sphinx==1.4.6
 spyder==3.0.0
 SQLAlchemy==1.0.13
-statsmodels==0.6.1
 stevedore==1.20.0
 sympy==1.0
 tables==3.2.3.1

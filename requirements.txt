@@ -67,7 +67,6 @@ jedi==0.9.0
 Jinja2==2.8
 jsonschema==2.5.1
 kombu==3.0.37
-lazy-object-proxy==1.2.1
 llvmlite==0.13.0
 locket==0.2.0
 lxml==3.6.4

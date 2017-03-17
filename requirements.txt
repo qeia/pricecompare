@@ -18,7 +18,6 @@ boto==2.42.0
 Bottleneck==1.1.0
 bottlenose==1.1.2
 bz2file==0.98
-cdecimal==2.3
 celery==3.1.25
 cffi==1.7.0
 chest==0.2.3

@@ -1,0 +1,8 @@
+svcs.ebay.com:
+    appid: Benjamin-products-PRD-92466ad44-13674f29
+    version: 1.0.0
+
+# Shopping API - https://www.x.com/developers/ebay/products/shopping-api
+open.api.ebay.com:
+    appid: Benjamin-products-PRD-92466ad44-13674f29
+    version: 671

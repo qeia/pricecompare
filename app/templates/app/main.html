@@ -1,0 +1,97 @@
+    <style>
+  article, aside, figure, footer, header, hgroup, 
+  menu, nav, section { display: block; }
+  #modal {
+    width: 600px;
+    border: 1px solid #CCC;
+    box-shadow: 0 1px 5px #CCC;
+    border-radius: 5px;
+    font-family: verdana;
+    margin: 25px auto;
+    overflow: hidden;
+  }
+  #modal header {
+    background: #f1f1f1;
+    background-image: -webkit-linear-gradient( top, #f1f1f1, #CCC );
+    background-image: -ms-linear-gradient( top, #f1f1f1, #CCC );
+    background-image: -moz-linear-gradient( top, #f1f1f1, #CCC );
+    background-image: -o-linear-gradient( top, #f1f1f1, #CCC );
+    box-shadow: 0 1px 2px #888;
+    padding: 10px;
+  }
+  #modal h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-weight: normal;
+    text-shadow: 0 1px 2px white;
+    color: #888;
+    text-align: center;
+  }
+  #modal section {
+    padding: 10px 30px; 
+    font-size: 20px;
+    line-height: 175%;
+    color: #333;
+  }
+</style>
+
+        
+        <div id="modal">
+                <header><Amazon</header>
+                {% for item in items %}
+                	<header><h4>{{item.id}}</h4></header>
+                	<section>
+                		Price : {{item.amazon_price}} Availbaility : {{item.amazon_available}}
+                	</section>
+                {% endfor %}		
+
+
+              
+        </div>
+           <div id="modal">
+                <header><h1>Ebay</h1></header>
+                {% for item in items %}
+                	<header><h4>{{item.id}}</h4></header>
+                	<section>
+                		Price : {{item.ebay_price}} Availbaility : {{item.ebay_available}}
+                	</section>
+                {% endfor %}
+              
+        </div>
+        <div id="modal">
+                <header><h1>Bestbuy</h1></header>
+                {% for item in items %}
+                	<header><h4>{{item.id}}</h4></header>
+                	<section>
+                		Price : {{item.bestbuy_price}} Availbaility : {{item.bestbuy_available}}
+                	</section>
+                {% endfor %}
+              
+        </div>
+        <div id="modal">
+                <header><h1>Gamestop</h1></header>
+
+
+                {% for item in items %}
+                	<header><h4>{{item.id}}</h4></header>
+                	<section>
+                		Price : {{item.gamestop_price}} Availbaility : {{item.gamestop_available}}
+                	</section>
+                {% endfor %}
+              
+        </div>
+        <div id="modal">
+                <header><h1>Walmart</h1></header>
+
+                {% for item in items %}
+                	<header><h4>{{item.id}}</h4></header>
+                	<section>
+                		Price : {{item.walmart_price}} Availbaility : {{item.walmart_available}}
+                	</section>
+                {% endfor %}
+              
+        </div>
+    
+    
+        
